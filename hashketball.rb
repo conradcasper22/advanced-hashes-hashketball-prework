@@ -185,7 +185,7 @@ def team_names
       if attribute == :team_name
         names << data
         
-      end
+     end
     end
   end
   names

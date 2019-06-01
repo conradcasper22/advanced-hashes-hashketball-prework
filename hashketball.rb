@@ -178,7 +178,7 @@ end
 def team_names
   hash = game_hash
   
-  # names = Array.new
+  names = Array.new
   
   hash.each do |location, team_data|
     team_data.each do |attribute, data|

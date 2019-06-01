@@ -183,7 +183,7 @@ def team_names
   hash.each do |location, team_data|
     team_data.each do |attribute, data|
       if attribute == :team_name
-        
+        names << data
       end
     end
   end

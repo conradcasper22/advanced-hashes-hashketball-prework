@@ -181,7 +181,7 @@ def team_names
   hash.each do |location, team_data|
     team_data.collect do |attribute, data|
       if attribute == :team_name
-        return hash[location][attribute]
+        return hash[location][attribute][data]
       end
     end
   end

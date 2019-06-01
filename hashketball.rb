@@ -198,7 +198,7 @@ def player_numbers(team_name)
   find_team(team_name)[:players].each do |player, stats|
     stats.collect do |info, num|
       if info == :number
-        return num
+        array << num
       end
    end
   end

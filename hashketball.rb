@@ -214,6 +214,8 @@ end
 
 
 def big_shoe_rebounds
+  hash = game_hash
+
   shoe_size = 0
   rebounds = 0
   

@@ -184,7 +184,7 @@ def team_names
     team_data.each do |attribute, data|
       if attribute == :team_name
         names << data
-        end
+        
       end
     end
   end

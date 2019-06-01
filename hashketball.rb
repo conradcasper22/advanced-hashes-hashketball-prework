@@ -180,7 +180,7 @@ def team_names
   
   hash.each do |location, team_data|
     team_data.collect do |attribute, data|
-      if attribute == :colors
+      if attribute == :team_name
         return data
       end
     end

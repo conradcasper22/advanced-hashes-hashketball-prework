@@ -151,7 +151,7 @@ def find_team(name)
   
   hash.each do |team, team_data|
     if team_data.values.include?(name)
-  
+      return team
       binding.pry
     end
   end

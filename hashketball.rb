@@ -147,7 +147,9 @@ def shoe_size(name)
 end
 
 def find_team(name)
+  hash = game_hash
   
+  hash.each do |team, team_data|
 end
           
 

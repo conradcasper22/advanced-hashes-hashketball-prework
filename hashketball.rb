@@ -153,7 +153,8 @@ def find_team(name)
     binding.pry
   end
 end
-          
+    
+    find_team(name)      
 
 
   

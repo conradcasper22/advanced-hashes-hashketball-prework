@@ -161,8 +161,8 @@ def find_team(name)
     if team_data.values.include?(name)
      return hash[team]
     end
-    binding.pry
   end
+  binding.pry
 end
       
 

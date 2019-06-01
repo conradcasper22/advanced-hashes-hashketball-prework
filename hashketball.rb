@@ -193,7 +193,7 @@ end
 
 
 def player_numbers(team_name)
-  find_team(team_name)[:players].collect do |player, stat|
+  find_team(team_name)[:players].collect do |player, stats|
     binding.pry
   end
 end

@@ -162,8 +162,9 @@ def find_team(name)
      return hash[team]
     end
   end
-  binding.pry
 end
+
+binding.pry
       
 
 

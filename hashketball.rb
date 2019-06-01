@@ -178,6 +178,8 @@ end
 def team_names
   hash = game_hash
   
+  names = Array.new
+  
   hash.each do |location, team_data|
     team_data.collect do |attribute, data|
       if attribute == :team_name

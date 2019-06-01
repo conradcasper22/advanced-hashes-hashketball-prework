@@ -146,7 +146,8 @@ def shoe_size(name)
   find_player(name)[:shoe]
 end
 
-
+def find_team(name)
+end
           
 
 

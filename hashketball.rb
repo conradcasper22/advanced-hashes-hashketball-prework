@@ -194,7 +194,7 @@ end
 
 def player_numbers(team_name)
   find_team(team_name)[:players].each do |player, stats|
-    stats.each do |stat, num|
+    stats.each do |info, num|
     binding.pry
    end
   end

@@ -185,6 +185,7 @@ def team_names
       if attribute == :team_name
         attribute.collect do |names|
           names
+        end
       end
     end
   end

@@ -157,6 +157,7 @@ def find_team(name)
   end
 end
     
+    find_team("Charlotte Hornets")
       
 
 

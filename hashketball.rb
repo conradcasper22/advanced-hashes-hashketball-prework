@@ -198,6 +198,8 @@ def player_numbers(team_name)
       if stat == :number
         return num
     binding.pry
+    end
+   end
   end
 end
         

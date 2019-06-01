@@ -150,7 +150,7 @@ def find_team(name)
   hash = game_hash
   
   hash.each do |team, team_data|
-    
+    if team_data.values.include?(name)
   end
 end
     

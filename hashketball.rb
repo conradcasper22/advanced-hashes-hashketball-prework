@@ -165,7 +165,7 @@ def find_team(name)
   end
 end
       
-binding.pry
+
 
 
 def team_colors(name)

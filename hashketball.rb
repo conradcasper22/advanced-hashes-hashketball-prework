@@ -142,9 +142,11 @@ def num_points_scored(name)
   find_player(name)[:points]
 end
 
+
 def shoe_size(name)
   find_player(name)[:shoe]
 end
+
 
 def find_team(name)
   hash = game_hash

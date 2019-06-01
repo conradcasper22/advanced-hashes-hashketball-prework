@@ -174,7 +174,7 @@ def team_colors(name)
 end
 
 
-find_team("Brooklyn Nets")
+
     
     
       

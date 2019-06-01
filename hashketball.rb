@@ -176,6 +176,8 @@ end
 
 
 def team_names
+  hash = game_hash
+  
 end
 
 

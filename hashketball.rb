@@ -214,7 +214,7 @@ end
 
 
 def biggest_shoe
-  
+  hash = game_hash
 end
     
         

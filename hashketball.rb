@@ -138,7 +138,8 @@ def find_player(name)
   end
 end
 
-def
+def num_points_scored(name)
+end
           
 
 

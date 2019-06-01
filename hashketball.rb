@@ -150,7 +150,7 @@ def find_team(name)
   hash = game_hash
   
   hash.each do |team, team_data|
-    
+    binding.pry
 end
           
 

@@ -151,6 +151,7 @@ def find_team(name)
   
   hash.each do |team, team_data|
     binding.pry
+  end
 end
           
 

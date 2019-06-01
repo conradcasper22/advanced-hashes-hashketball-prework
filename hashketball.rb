@@ -197,10 +197,11 @@ def player_numbers(team_name)
     stats.collect do |info, num|
       if info == :number
         return num
-    
+      end
    end
   end
 end
+    
         
 
 

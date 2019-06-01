@@ -153,6 +153,7 @@ def find_team(name)
     if team_data.values.include?(name)
       return team_data
       binding.pry
+    end
   end
 end
     

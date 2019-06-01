@@ -160,8 +160,8 @@ def find_team(name)
   hash.each do |team, team_data|
     if team_data.values.include?(name)
      return hash[team]
-     binding.pry
     end
+    binding.pry
   end
 end
       

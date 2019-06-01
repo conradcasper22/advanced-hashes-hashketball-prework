@@ -183,6 +183,8 @@ def team_names
     team_data.collect do |attribute, data|
       if attribute == :colors
         return data
+      end
+    end
   end
 end
 
